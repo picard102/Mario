@@ -12,9 +12,11 @@
 
   ul {
     list-style: none outside;
+    margin: 0;
     padding: 32px 0;
     height: 100%;
-    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   
   li {
