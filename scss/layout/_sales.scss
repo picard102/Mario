@@ -1,0 +1,95 @@
+
+.sales {
+  padding-top: 68px;
+  padding-bottom: 78px;
+  background-image: url('img/raster/compressed/sales-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+
+  .wrapper {
+    @include break($min: 800px) {
+      @include align-items(stretch);
+      @include display(flex);
+      @include flex-direction(row);
+      @include justify-content(space-between);
+    }
+  }
+
+  .shop-item {
+    position: relative;
+    padding: 0 32px 42px;
+    line-height: 1em;
+    vertical-align: top;
+    text-align: center;
+    width: 45%;
+    display: inline-block;
+    background-color: $yellow;
+    margin-top: 190px;
+    box-shadow: 10px 10px 0 rgba($black, .5);
+    background-image: linear-gradient(rgba($white, .2) 2px, transparent 2px), linear-gradient(90deg, rgba($white, .2) 2px, transparent 2px);
+    background-position: -2px -5px;
+    background-repeat: repeat;
+    background-size: 25px 25px, 25px 25px;
+
+    @include break($max: 800px) {
+      width: 100%;
+      margin-top: 90px;
+
+      &:first-child {
+        margin-bottom: 48px; 
+      }
+    } // bp
+  } // shop item
+
+
+  .price {
+    font-family: 'bou';
+    font-size: 1.5em;
+    color: $black;
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  h1 {
+    display: block;
+    text-align: left;
+    font-family: 'bou';
+    font-size: 2em;
+    text-shadow: 2px 2px 0 rgba($black, .9);
+    color: $white;
+    line-height: 1em;
+  }
+
+  .red-box {
+    margin: 48px auto 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+  }
+  
+
+  picture {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: -190px;
+    background-repeat: no-repeat;
+    background-position: center 98%;
+    background-size: 70% 20px;
+    background-image: radial-gradient(51% 99%, rgba(0, 0, 0, .08) 86%, rgba(0, 0, 0, .0) 98%);
+
+    @include break($max: 800px) {
+      margin-top: -90px;
+    }
+
+  } // picture
+
+} //sales

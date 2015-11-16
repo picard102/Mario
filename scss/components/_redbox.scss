@@ -1,0 +1,41 @@
+
+$pxval: 3;
+$spread: 1;
+$redbox-dark: #7d0d00;
+$redbox-light: #ff4d01;
+$redbox: #f82c00;
+
+.red-box {
+  @include transition (all .2s ease-in-out);
+  border-radius: 5px;
+  display: inline-block;
+  background-color: $redbox;
+  font-family: 'bou';
+  font-size: 24px;
+  padding: .5em 1.5em;
+  color: $white;
+  text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+  box-shadow: inset 0 (-$pxval)+px $spread+px $redbox-dark, inset (-$pxval)+px 0 0 rgba($redbox-dark, .5), inset ($pxval)+px 0 0 rgba($redbox-dark, .5), inset 0 $pxval+px $spread+px $redbox-light;
+
+  background-image: 
+  radial-gradient(rgba($redbox, .5) 50%, transparent 55%),
+  radial-gradient(rgba($redbox, .5) 50%, transparent 55%),
+  radial-gradient(rgba($redbox, .5) 50%, transparent 55%),
+  radial-gradient(rgba($redbox, .5) 50%, transparent 55%),
+  radial-gradient($redbox-dark 50%, transparent 55%),
+  radial-gradient($redbox-dark 50%, transparent 55%),
+  radial-gradient($redbox-dark 50%, transparent 55%),
+  radial-gradient($redbox-dark 50%, transparent 55%),
+  ;
+
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 10px 10px, 10px 10px, 10px 10px, 10px 10px;
+  background-position: 3.1% 19%, 3.1% 87%,  97% 18%, 97% 86%, 3% 15%, 3% 85%,  97% 15%, 97% 85%;
+  background-repeat: no-repeat, no-repeat;
+
+  &:hover {
+    background-color: tint($redbox, 10%);
+  }
+
+
+}
+

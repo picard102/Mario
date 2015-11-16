@@ -1,0 +1,67 @@
+
+$pxval: 3;
+$coinbox-dark: #1f1f1f;
+$coinbox-light: #ba6113;
+$coinbox: #ffb259;
+
+.coin-box {
+  @include transition (all .2s ease-in-out);
+  @include size(42px);
+  display: inline-block;
+  background-color: $coinbox;
+  font-family: 'bou';
+  font-size: 1.5em;
+  color: $white;
+  background-image: radial-gradient($coinbox-dark 6%, transparent 9%);
+  background-size: 33px 33px;
+  background-position: -12px -11px;
+  box-shadow: 0 (-$pxval)+px 0 $coinbox-light, (-$pxval)+px 0 0 $coinbox-light, $pxval+px $pxval+px 0 $coinbox-dark, (-$pxval)+px $pxval+px 0 $coinbox-dark, 0 $pxval+px 0 $coinbox-dark, $pxval+px 0 0 $coinbox-dark;
+
+  &:hover {
+    background-color: tint($coinbox, 20%);
+  }
+
+  span {
+    //@include test;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+  }
+
+  &.hamburger span {
+    //@include test;
+    @include alignment(relative, center);
+    font-size: 0;
+    width: 50%;
+    height: $pxval+px;
+    background: $white;
+    box-shadow: ($pxval)-1px ($pxval)-1px 0 $coinbox-dark;
+    
+    &:after {
+      background: $white;
+      content: '';
+      height: $pxval+px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: $pxval+$pxval+1+px;
+      box-shadow: ($pxval)-1px ($pxval)-1px 0 $coinbox-dark;
+    }
+
+    &:before {
+      background: $white;
+      content: '';
+      height: $pxval+px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: $pxval+$pxval+1+px;
+      box-shadow: ($pxval)-1px ($pxval)-1px 0 $coinbox-dark;
+    }
+
+  }
+
+}

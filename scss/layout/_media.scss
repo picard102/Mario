@@ -1,0 +1,44 @@
+
+.images,
+.video {
+  border: 1px solid transparent;
+  padding-top: 48px;
+  background-color: $black;
+
+  .empty-box {
+    margin-bottom: 24px;
+  }
+
+}
+
+.video {
+  padding-bottom: 58px;
+  background-image: url('img/raster/compressed/media-bg.jpg');
+  background-size: contain;
+
+  .embed-frame {
+    padding: 24px;
+    background-color: tint($yellow, 50%);
+    box-shadow: 10px 10px 0 rgba($black, .2);
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+    iframe, 
+    object,
+    embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.images {
+  background-image: url('img/raster/compressed/media-bg.jpg');
+  padding-bottom: 58px;
+}

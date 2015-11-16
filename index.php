@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Super Mario Maker | EB Games Canada</title>
+  <meta property="og:title" content="Star Wars Battlefront at EB Games Canada" />
+  <meta property="og:description" content="Now Available" />
+  <meta property="og:image" content="img/raster/compressed/image_1_thumb.jpg" />
+  <meta property="og:type" content="game" />
+  <meta property="og:url" content="" />
+  <meta name="description" content="Super Mario Maker | Available Now" />
+  <link rel="image_src" href="img/raster/compressed/thumbnail.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sprite-hide">
+  <?php include("img/sprite.svg"); ?>
+</div>
+
+  <div id="sb-site" class="wrap push pushm">
+<header>
+  <div class="wrapper wrap pushm">
+    <a href="http://www.ebgames.ca" class="eb-logo"><svg><use xlink:href="#eb-logo"></use></svg></a>
+    
+    <div class="box-group">
+      <a href="" class="coin-box"><span>Fr</span></a>
+      <a href="#menu" class="coin-box hamburger"><span>Menu</span></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+<section class="hero-unit">
+  <div class="wrapper">
+    
+    <div class="logo-panel">
+      <div class="align-center">
+        <svg><use xlink:href="#mario-logo"></use></svg>
+        <a href="#" class="red-box"> <span>Now Avalible</span> </a>
+      </div>
+    </div>
+
+    <picture>
+      <source srcset="img/raster/compressed/hero-mario_2x.png" media="(min-width: 550px)">
+      <img srcset="img/raster/compressed/hero-mario.png" >
+    </picture>
+
+    <div class="video-container">
+      <video id="video-background-hero" class="bg-video-scene hide-tablet-large hide-tablet hide-mobile" autoplay="" loop="" preload="auto" mute="" poster="video/bg-home.jpg">
+        <source src="video/bg-home.mp4" type="video/mp4">
+        <source src="video/bg-home.webm" type="video/webm">
+        <img src="" alt="Mario">
+      </video>
+    </div>
+
+  </div>
+</section>
+
+
+<div class="brick-border"> </div>
+
+
+
+<section class="sales">
+  <div class="wrapper">
+  
+  <div class="shop-item">
+    <picture>
+      <source srcset="img/raster/compressed/game-box.png" media="(min-width: 860px)">
+      <img srcset="img/raster/compressed/game-box.png" >
+    </picture>
+
+    <div class="content">
+      <h1>Super Mario Maker</h1>
+      <span class="price">$69.99</span>
+      <a href="#" class="red-box"> <span>Order</span> </a>
+    </div>
+  </div> <!-- Shop Item -->
+
+
+  <div class="shop-item">
+
+    <picture>
+      <source srcset="img/raster/compressed/hardware-box.png" media="(min-width: 860px)">
+      <img srcset="img/raster/compressed/hardware-box.png" >
+    </picture>
+
+    <div class="content">
+      <h1>Super Mario Maker Hardware Bundle</h1>
+      <span class="price">$329.99</span>
+      <a href="#" class="red-box"> <span>Order</span> </a>
+    </div>
+  </div> <!-- Shop Item -->
+
+  </div>
+
+
+</section>
+
+
+<div class="icon-border">
+  <img class="shrooms" src="img/raster/compressed/shrooms.png">
+</div>
+
+
+<section class="video">
+  <div class="wrapper">
+    <span class="empty-box"> <span>Video</span> </span>
+    <div class="embed-frame">
+    <iframe width="900" height="720" src="https://www.youtube-nocookie.com/embed/sb3UFp7HajQ?list=PL2JiZAV5BmDXeCOnq-Klj3iDDRtjmh0GP&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="iconb-border">
+  <img class="toad" src="img/raster/compressed/toad.png">
+</div>
+
+
+<section class="images">
+  <div class="wrapper">
+
+    <span class="empty-box"> <span>Images</span> </span>
+
+    <div class="image-grid">
+      <?php
+        echo str_repeat('<a class="image-frame" href="img/raster/compressed/image-1.jpg" rel="gallery"><img src="img/raster/compressed/image-1-thumb.jpg"></a> ',3);
+        echo str_repeat('<a class="image-frame"  href="img/raster/compressed/image-2.jpg" rel="gallery">><img src="img/raster/compressed/image-2-thumb.jpg"></a> ',5);
+      ?>
+    </div>
+
+  </div>
+</section>
+
+
+
+<div class="icon-border">
+  <img class="builder" src="img/raster/compressed/builder.png">
+</div>
+
+
+
+
+
+<footer>
+  <div class="cloud-1"><img src="img/raster/compressed/obj-cloud-01.png"></div>
+  <div class="cloud-2"><img src="img/raster/compressed/obj-cloud-02.png"></div>
+
+  <div class="tube-1"><img src="img/raster/compressed/obj-tube-01.png"></div>
+    <div class="wrapper">
+      <p>Broadband Internet access required for online features. For more info, go to support.nintendo.com. 
+      © 2015 Nintendo. Super Mario Maker and Wii U are trademarks of Nintendo.</p>
+
+      <div class="badges">  
+        <div class="esrb">
+          <svg><use xlink:href="#esrb"></use></svg> Comic Mischief
+        </div>
+        <img src="img/raster/compressed/esrb-privacy.jpg">
+      </div>
+
+    </div>
+
+</footer>
+
+<div class="ground-border"> </div>
+
+ </div>
+
+<nav id="menu" class="panel" role="navigation">
+    <ul>
+        <li><a href="http://www.ebgames.ca/?language=23">EBGames.ca</a></li>
+        <li class="title">Systems</li>
+        <li><a href="https://www.ebgames.ca/PS4">PS4</a></li>
+        <li><a href="https://www.ebgames.ca/Xbox One">Xbox One</a></li>
+        <li><a href="https://www.ebgames.ca/PS3">PS3</a></li>
+        <li><a href="https://www.ebgames.ca/Xbox 360">Xbox 360</a></li>
+        <li><a href="https://www.ebgames.ca/Wii U">Wii U</a></li>
+        <li><a href="https://www.ebgames.ca/PC">PC</a></li>
+        <li><a href="https://www.ebgames.ca/PS Vita">PS Vita</a></li>
+        <li><a href="https://www.ebgames.ca/3DS">3DS</a></li>
+        <li><a href="https://www.ebgames.ca/?language=23">Other</a></li>
+        <li class="title">Trade Promotions</li>
+        <li><a href="https://www.ebgames.ca/Recycled Offers">Recycled Offers</a></li>
+        <li class="title">Social Media</li>
+        <li><a href="https://twitter.com/ebgamescanada"><span>Twitter</span></a></li>
+        <li><a href="https://facebook.com/ebgames.gamestop"><span>Facebook</span></a></li>
+    </ul>
+</nav>
+
+
+
+  <link rel="stylesheet" href="magnific-popup.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/vendor/covervid.min.js"></script>
+<script src="js/vendor/magnific.min.js"></script>
+<script src="js/vendor/bigSlide.min.js"></script>
+<script src="main.min.js"></script>
+<script src="http://localhost:25710/livereload.js?snipver=1"></script>
+
+</body></html>

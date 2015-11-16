@@ -1,0 +1,43 @@
+
+.panel {
+  background-color: $black;
+  position: fixed;
+  right: -15.625em; 
+  width: 15.625em; 
+  top: 0;
+  z-index: 10;
+  font-family: 'bou';
+  box-shadow: inset 2px 0 5px $black;
+  
+  ul {
+    list-style: none outside;
+    padding: 0;
+    margin: 32px 0;
+  }
+  
+  li {
+    padding: 3px 12px;
+  }
+
+  a {
+    color: $white;
+    font-size: 1.3em;
+    text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+  }
+
+  .title {
+    font-size: 1.5em;
+    text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+    background-image: url('img/raster/compressed/underbrick-border.jpg');
+    background-repeat: repeat-x;
+    line-height: 42px;
+    color: $yellow;
+    padding-bottom: 42px;
+    background-position: bottom left;
+    background-size: 42px 42px;
+    margin: 12px 0;
+    box-shadow: inset 2px 0 5px $black;
+  }
+}
+
+

@@ -1,0 +1,84 @@
+
+.icon-border {
+  background-image: linear-gradient(rgba($white, .3) 2px, transparent 2px), linear-gradient(90deg, rgba($white, .3) 2px, transparent 2px), url('img/raster/compressed/old-tiles.png');
+  height: 195px;
+  background-position: -15px -5px;
+  background-repeat: repeat;
+  background-size: 25px 25px, 25px 25px, auto 200px;  
+  position: relative;
+  box-shadow: 0 0 5px rgba($black, .5);
+
+  @include break($max: 800px) {
+    overflow: hidden;
+    height: 95px;
+  }
+}
+
+.iconb-border {
+  background-image: linear-gradient(rgba($white, .3) 2px, transparent 2px), linear-gradient(90deg, rgba($white, .3) 2px, transparent 2px), url('img/raster/compressed/new-tiles.jpg');
+  height: 195px;
+  background-position: -15px -5px;
+  background-repeat: repeat;
+  background-size: 25px 25px, 25px 25px, auto 400px;
+  position: relative;
+  box-shadow: 0 0 5px rgba($black, .5);
+
+  @include break($max: 800px) {
+    overflow: hidden;
+    height: 95px;
+  }
+}
+
+
+
+.ground-border {
+  background-image: url('img/raster/compressed/ground-border.png');
+  height: 52px;
+}
+
+.brick-border {
+  background-image: url('img/raster/compressed/brick-border.png');
+  height: 42px;
+  background-size: 42px 42px;
+}
+
+
+
+.toad {
+  position: absolute;
+  bottom: 10px;
+  right: 90px;
+  height: 110%;
+  width: auto;
+
+  @include break($max: 800px) { 
+    bottom: -5px;
+  }
+}
+
+.shrooms {
+  @include transform(scaleX(-1));
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  height: 150%;
+  width: auto;
+
+  @include break($max: 800px) { 
+    bottom: -50px;
+    height: 200%;
+  }
+}
+
+.builder {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  height: 150%;
+  width: auto;
+
+  @include break($max: 800px) { 
+    bottom: -50px;
+    height: 200%;
+  }
+}
