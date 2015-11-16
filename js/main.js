@@ -1,6 +1,11 @@
  (function($) {
   $(function() {
 
+
+     $(function(){
+      $(".sprite-hide").load("img/sprite.svg"); 
+    });
+
 //////////////////////
 ////////  Get Viewport width.
 //////////////////////
