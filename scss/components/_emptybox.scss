@@ -12,15 +12,13 @@ $empty: #ba6111;
   font-size: 24px;
   padding: .5em 1.5em;
   color: $white;
-  text-shadow: $pxval+px $pxval+px 0 $empty-dark;
-  border: $pxval+px solid $black;
+  text-shadow: $pxval + px $pxval + px 0 $empty-dark;
+  border: $pxval + px solid $black;
   border-radius: 4px;
-  background-image: 
+  background-image: radial-gradient($empty-dark 50%, transparent 55%),
   radial-gradient($empty-dark 50%, transparent 55%),
   radial-gradient($empty-dark 50%, transparent 55%),
-  radial-gradient($empty-dark 50%, transparent 55%),
-  radial-gradient($empty-dark 50%, transparent 55%),
-  ;
+  radial-gradient($empty-dark 50%, transparent 55%);
   background-size: 5px 5px, 5px 5px, 5px 5px, 5px 5px;
   background-position: 4% 15%, 4% 89%,  97% 15%, 97% 89%;
   background-repeat: no-repeat, no-repeat;

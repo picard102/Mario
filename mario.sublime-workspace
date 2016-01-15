@@ -255,10 +255,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 372.0,
-		"last_filter": "g",
+		"height": 354.0,
+		"last_filter": "Package Control: ",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Grunt"
+			],
 			[
 				"g",
 				"Grunt"
@@ -273,10 +281,6 @@
 			],
 			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
@@ -304,7 +308,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 557.0
+		"width": 382.0
 	},
 	"console":
 	{
@@ -325,16 +329,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/Mario",
-		"/Applications/MAMP/htdocs/Mario/img/raster/compressed",
-		"/Applications/MAMP/htdocs/Mario/img/raster/raw",
-		"/Applications/MAMP/htdocs/Mario/js/vendor",
-		"/Applications/MAMP/htdocs/Mario/scss",
-		"/Applications/MAMP/htdocs/Mario/scss/components",
-		"/Applications/MAMP/htdocs/Mario/scss/utils"
+		"/C/MAMP/htdocs/Mario",
+		"/C/MAMP/htdocs/Mario/scss",
+		"/C/MAMP/htdocs/Mario/scss/utils"
 	],
 	"file_history":
 	[
+		"/C/Users/jlesc/Desktop/0000-EAGamesPlantsVsZombiesGardenWarfare2PreSellHeroSpot/ssdfsdf.jpg",
+		"/C/Users/jlesc/Desktop/0000-EAGamesPlantsVsZombiesGardenWarfare2PreSellHeroSpot/copy",
+		"/C/MAMP/htdocs/Mario/scss/utils/_responsive.scss",
+		"/C/MAMP/htdocs/Mario/scss/components/_redbox.scss",
+		"/C/MAMP/htdocs/Mario/scss/components/_nav.scss",
+		"/C/MAMP/htdocs/Mario/scss/components/_herounit.scss",
+		"/C/MAMP/htdocs/Mario/scss/components/_coinbox.scss",
+		"/C/MAMP/htdocs/Mario/scss/components/_emptybox.scss",
+		"/C/MAMP/htdocs/Mario/scss/base/_base.scss",
+		"/C/Program Files/DevKit/config.yml",
+		"/C/MAMP/htdocs/Mario/scss/layout/_footer.scss",
+		"/C/MAMP/htdocs/Mario/package.json",
+		"/C/MAMP/htdocs/Mario/scss/style.scss",
+		"/C/MAMP/htdocs/Mario/index.php",
 		"/Applications/MAMP/htdocs/Mario/scss/components/_imagegrid.scss",
 		"/Applications/MAMP/htdocs/Mario/index.php",
 		"/Applications/MAMP/htdocs/Mario/js/main.js",
@@ -448,25 +462,11 @@
 		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/_inc/theme-options.php",
 		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/_inc/favicon.php",
 		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/page-edit.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/layout/_splash.scss",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/layout/_jobs.scss",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/archive-jobs.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/components/_article_body.scss",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/page-splash.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/archive-faq.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/archive-jobs.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/favicon.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/_inc/sessions/_log_display.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/components/_single_message_log.scss",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/base/_normalize.scss",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/front-page.php",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/img/svg/raw/splash-logo.svg",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/img/svg/compressed/splash-logo.svg",
-		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/components/_single_notices.scss"
+		"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016/scss/layout/_splash.scss"
 	],
 	"find":
 	{
-		"height": 75.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -481,6 +481,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"+px",
+			")+px",
+			"+px",
+			"&:",
+			"+px",
+			"$pxval)-1px",
+			"$pxval+px",
+			")+px",
 			"%;\n",
 			"71px",
 			"builder",
@@ -599,7 +607,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -640,7 +648,7 @@
 	"project": "mario.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

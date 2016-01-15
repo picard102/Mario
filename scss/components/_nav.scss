@@ -26,12 +26,12 @@
   a {
     color: $white;
     font-size: 1.3em;
-    text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+    text-shadow: $pxval + px $pxval + px 0 $coinbox-dark;
   }
 
   .title {
     font-size: 1.5em;
-    text-shadow: $pxval+px $pxval+px 0 $coinbox-dark;
+    text-shadow: $pxval + px $pxval + px 0 $coinbox-dark;
     background-image: url('img/raster/compressed/underbrick-border.jpg');
     background-repeat: repeat-x;
     line-height: 42px;

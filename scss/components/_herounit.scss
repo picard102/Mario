@@ -28,7 +28,7 @@
       width: 366px;
       position: relative;
 
-      &:before {
+      &::before {
         content: '';
         background-color: $yellow;
         position: absolute;
@@ -96,7 +96,7 @@
       left: 366px;
     }
 
-    &:after {
+    &::after {
       background-image: linear-gradient(rgba($yellow, .5) 2px, transparent 2px), linear-gradient(90deg, rgba($yellow, .5) 2px, transparent 2px);
       background-position: -15px -5px;
       background-repeat: repeat;
